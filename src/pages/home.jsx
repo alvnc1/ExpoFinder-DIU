@@ -1,15 +1,7 @@
-import React from 'react'
+import React from 'react';
 
-import NavBar from '../components/nav_bar'
+const Home = () => {
+  return <div><h2>Home Page</h2></div>;
+};
 
-export const HomePage = () => {
-  return (
-    <div className='page'>
-      <h1 className='page__title'>ExpoFinder</h1>
-      <NavBar />
-      <h2>Página de Inicio</h2>
-    </div>
-  )
-}
-
-export default HomePage
+export default Home;
