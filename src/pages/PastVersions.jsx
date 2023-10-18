@@ -1,5 +1,5 @@
 import React from 'react';
-import PastVersions from '../components/PastVersions';
+import PastVersions from '../components/PastEditions';
 
 const PastVersionsPage = () => {
   return <PastVersions />;
