@@ -11,7 +11,7 @@ export const InternalPage = () => {
       <NavBar />
       <h2>Página Interna</h2>
       <img src={LogoUSM} height={100} alt='logo usm' /><br />
-      <Button variant='contained'>Material UI Button</Button>
+      <Button variant='contained'>Button</Button>
     </div>
   )
 }
