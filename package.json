@@ -1,11 +1,11 @@
 {
-  "name": "expofinder",
+  "name": "frontend-sample-app",
   "version": "0.1.0",
-  "description": "",
+  "description": "Basic Frontend Development Environment to start an app with Webpack",
   "main": "src/index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/alvnc1/ExpoFinder-DIU.git"
+    "url": "https://github.com/alexarenasf/frontend-sample-app"
   },
   "scripts": {
     "prod": "webpack --mode=production",

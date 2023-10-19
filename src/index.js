@@ -1,5 +1,15 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import App from './App';
+import React from 'react'
+import ReactDom from 'react-dom'
 
-ReactDOM.render(<App />, document.getElementById('root'));
+import AppRouter from './components/app_router'
+
+import './stylesheets/index.scss'
+
+const root = document.createElement('div')
+root.setAttribute('id', 'root')
+document.body.appendChild(root)
+
+ReactDom.render(
+  <AppRouter />,
+  document.getElementById('root')
+)
