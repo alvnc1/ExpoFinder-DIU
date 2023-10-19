@@ -6,8 +6,7 @@ import Image2 from '../assets/naturequestog.png';
 import Image3 from '../assets/safesym.png';
 import NavBar from '../components/nav_bar';
 
-// Importa el componente SearchBar
-import SearchBar from '../components/Searchbar';
+import SearchBar from '../components/SearchBar';
 
 function Home() {
   const linkStyles = {
@@ -35,27 +34,24 @@ function Home() {
   };
 
   const containerStyles = {
-    position: 'relative', // Asegura que el contenido no se superponga con el NavBar
+    position: 'relative',
   };
 
   const searchBarStyles = {
     position: 'absolute',
     top: '20px',
-    right: '180px',
+    right: '20px',
+    maxWidth: '300px',
   };
 
-  // Función de búsqueda (implementa la lógica de búsqueda aquí)
-  const handleSearch = (searchTerm) => {
-    // Aquí debes implementar la lógica de búsqueda y, en función de los resultados, redirigir o mostrar los proyectos.
-    // Por ahora, simplemente mostramos una alerta con el término de búsqueda.
-    alert(`Búsqueda: ${searchTerm}`);
+  const handleSearch = (searchTerm, selectedTheme) => {
+    alert(`Búsqueda: ${searchTerm}, Tema: ${selectedTheme}`);
   };
 
   return (
     <div style={containerStyles}>
       <div style={backgroundStyles}>
         <div style={searchBarStyles}>
-          {/* Agrega el componente SearchBar en la esquina superior derecha */}
           <SearchBar onSearch={handleSearch} />
         </div>
         <div style={{ textAlign: 'center' }}>
@@ -96,7 +92,3 @@ function Home() {
 }
 
 export default Home;
-
-
-
-
