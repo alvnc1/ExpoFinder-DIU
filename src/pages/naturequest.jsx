@@ -11,7 +11,7 @@ export const NatureQuest= () => {
         <div className="pmv-container">
         <div className="pmv-item">
             <img src={Banner} height={300} alt="Imagen 1" />
-            <p>Texto bajo la imagen 1</p>
+            <p>NatureQuest</p>
         </div>        
         </div>
         <h2 className='label'>Descripcion del proyecto</h2>

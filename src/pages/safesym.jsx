@@ -2,18 +2,16 @@ import React from 'react'
 
 import NavBar from '../components/nav_bar'
 import Logo from '../assets/safesym.png'
-import LogoUSM from '../assets/usm.png'
 
 export const SafeSym= () => {
     return (
       <div className='page'>
-        <img src={LogoUSM} alt="LogoUSM" className='imagen-fija' />
         <h1 className='page__title'>ExpoFinder</h1>
           <NavBar></NavBar>
           <div className="pmv-container">
             <div className="pmv-item">
                 <img src={Logo} height={300} alt="Imagen 1" />
-                <p>Texto bajo la imagen 1</p>
+                <p>SafeSym</p>
             </div>        
           </div>
             <h2 className='label'>Descripcion del proyecto</h2>

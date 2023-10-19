@@ -12,7 +12,7 @@ function PMVComponent() {
       <div className="pmv-container">
         <div className="pmv-item">
             <img src={Menu} height={300} alt="Imagen 1" />
-            <p>Texto bajo la imagen 1</p>
+            <p>Mind Guardian</p>
         </div>        
       </div>
         <h2 className='label'>Descripcion del proyecto</h2>
