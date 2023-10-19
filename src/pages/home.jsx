@@ -1,15 +1,13 @@
-import React from 'react'
+// Home.js
+import React from 'react';
+import '../stylesheets/home/home.scss'; // Asegúrate de crear este archivo CSS en la misma carpeta que Home.js
 
-import NavBar from '../components/nav_bar'
-
-export const HomePage = () => {
+function Home() {
   return (
-    <div className='page'>
-      <h1 className='page__title'>ExpoFinder</h1>
-      <NavBar />
-      <h2>Página de Inicio</h2>
+    <div className="home-container">
+      <h1 className="home-title">ExpoFinder</h1>
     </div>
-  )
+  );
 }
 
-export default HomePage
+export default HomePage;
