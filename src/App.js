@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';  // Importa Routes en lugar de Switch
 import Navbar from './components/Navbar';
 import Home from './pages/Home';
 import Projects from './pages/Projects';
@@ -10,17 +10,18 @@ const App = () => {
   return (
     <Router>
       <Navbar />
-      <Switch>
-        <Route exact path="/" component={Home} />
-        <Route path="/projects" component={Projects} />
-        <Route path="/themes" component={Themes} />
-        <Route path="/past-versions" component={PastVersions} />
-      </Switch>
+      <Routes>  {/* Usa Routes en lugar de Switch */}
+        <Route path="/" element={<Home />} />  {/* Usa "element" en lugar de "component" */}
+        <Route path="/projects" element={<Projects />} />  {/* Usa "element" en lugar de "component" */}
+        <Route path="/themes" element={<Themes />} />  {/* Usa "element" en lugar de "component" */}
+        <Route path="/past-versions" element={<PastVersions />} />  {/* Usa "element" en lugar de "component" */}
+      </Routes>  {/* Usa Routes en lugar de Switch */}
     </Router>
   );
 };
 
 export default App;
+
 
 
 
