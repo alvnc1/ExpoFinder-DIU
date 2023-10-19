@@ -49,3 +49,24 @@ label, input, textarea {
 .submit-button:hover {
   background-color: #0056b3;
 }
+
+/* Estilo para el contenedor del párrafo */
+.parrafo-container {
+  background-color: #283744; /* Color de fondo azul */
+  border-radius: 10px; /* Bordes redondos */
+  padding: 10px; /* Espaciado interior */
+  color: #ffffff; /* Texto blanco */
+  width: fit-content; /* Se ajusta al contenido horizontalmente */
+  max-height: 50%; /* Altura máxima del 50% del contenedor padre */
+  overflow-y: auto; /* Agrega una barra de desplazamiento vertical si el contenido es largo */
+}
+
+.pmv-container {
+  
+}
+
+.pmv-item {
+  flex: auto;
+  vertical-align: top;   /* Alinea la parte superior del contenedor */
+  text-align: center;
+}

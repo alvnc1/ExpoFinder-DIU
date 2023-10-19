@@ -43,21 +43,21 @@ function Home() {
         marginTop: '20px',
       }}>
         <div className="box" style={{ margin: '10px', textAlign: 'center', ...boxStyles }}>
-          <Link to="/ruta1" style={{ ...linkStyles }}>
+          <Link to="/mindguardian" style={{ ...linkStyles }}>
             <img src={Image1} width={200} alt="Descripción de la imagen" />
             <h2>Mind Guardian</h2>
             <p style={{ color: '#999', fontSize: '0.9em' }}>https://mindguardian.feriadesoftware.cl.</p>
           </Link>
         </div>
         <div className="box" style={{ margin: '10px', textAlign: 'center', ...boxStyles }}>
-          <Link to="/ruta2" style={{ ...linkStyles }}>
+          <Link to="/naturequest" style={{ ...linkStyles }}>
             <img src={Image2} width={200} alt="Descripción de la imagen" />
             <h2>NatureQuest</h2>
             <p style={{ color: '#999', fontSize: '0.9em' }}>https://naturequest.feriadesoftware.cl/naturequest/</p>
           </Link>
         </div>
         <div className="box" style={{ margin: '10px', textAlign: 'center', ...boxStyles }}>
-          <Link to="/ruta3" style={{ ...linkStyles }}>
+          <Link to="/safesym" style={{ ...linkStyles }}>
             <img src={Image3} width={200} alt="Descripción de la imagen" />
             <h2>SafeSym</h2>
             <p style={{ color: '#999', fontSize: '0.9em' }}>https://safesym.feriadesoftware.cl</p>
