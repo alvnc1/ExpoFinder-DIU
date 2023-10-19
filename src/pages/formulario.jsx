@@ -1,13 +1,15 @@
 import React from 'react'
+import { Button } from '@mui/material'
 
 import NavBar from '../components/nav_bar'
+import LogoUSM from '../assets/usm.png'
 
-export const HomePage = () => {
+export const Formulario = () => {
   return (
     <div className='page'>
-      <h1 className='page__title'>Frontend Sample App</h1>
+      <h1 className='page__title'>ExpoFinder</h1>
       <NavBar />
-      <h2>Página de Inicio</h2>
+      <h2>Subir tu proyecto</h2>
       <div className='form-container'>
         <form className='form'>
           <label>
@@ -63,4 +65,4 @@ export const HomePage = () => {
   )
 }
 
-export default HomePage
+export default Formulario
