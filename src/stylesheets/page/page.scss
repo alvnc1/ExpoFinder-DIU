@@ -4,17 +4,6 @@
   margin: 20px;
 }
 
-.pmv-container {
-  display: flex;
-  justify-content: space-between; /* Puedes ajustar esto según tus necesidades */
-}
-
-.pmv-item {
-  width: 30%; /* Ajusta el ancho de los elementos según tus necesidades */
-  text-align: center; /* Centra el contenido */
-}
-
-/* Estilo para el contenedor del formulario */
 .form-container {
   display: flex;
   align-items: center;
@@ -22,15 +11,14 @@
   height: 100vh;
 }
 
-/* Estilo para el contenedor del formulario */
 .form-container {
   display: flex;
-  justify-content: center; /* Centra horizontalmente */
-  align-items: flex-start; /* Alinea en la parte superior verticalmente */
+  justify-content: center; 
+  align-items: flex-start;
   height: 100vh;
 }
 
-/* Estilo para el formulario */
+
 .form {
   display: flex;
   flex-direction: column;
@@ -38,7 +26,7 @@
   width: 70%;
 }
 
-/* Estilo para los elementos del formulario */
+
 label, input, textarea {
   display: block;
   margin: 5px 0;
@@ -47,17 +35,17 @@ label, input, textarea {
 }
 
 .submit-button {
-  width: auto; /* El tamaño se ajustará automáticamente al contenido */
-  background-color: #0074d9; /* Fondo azul */
-  color: #ffffff; /* Texto blanco */
-  padding: 10px 20px; /* Relleno del botón (ajusta según lo necesario) */
-  border: none; /* Sin borde */
+  width: auto; 
+  background-color: #0074d9;
+  color: #ffffff;
+  padding: 10px 20px;
+  border: none;
   cursor: pointer;
-  font-weight: bold; /* Hace que el texto sea más audaz */
-  border-radius: 5px; /* Bordes redondeados */
+  font-weight: bold;
+  border-radius: 5px; 
 }
 
-/* Estilo para el botón al pasar el cursor sobre él */
+
 .submit-button:hover {
-  background-color: #0056b3; /* Color azul más oscuro en el hover */
+  background-color: #0056b3;
 }

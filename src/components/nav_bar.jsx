@@ -8,25 +8,13 @@ export const NavBar = () => {
         className={({ isActive }) => `nav-bar__link ${isActive ? 'nav-bar__link--active' : ''}`}
         to='/'
       >
-        Página de inicio
+        Inicio
       </NavLink>
       <NavLink
         className={({ isActive }) => `nav-bar__link ${isActive ? 'nav-bar__link--active' : ''}`}
         to='/internal'
       >
-        Proyecto 1
-      </NavLink>
-      <NavLink
-        className={({ isActive }) => `nav-bar__link ${isActive ? 'nav-bar__link--active' : ''}`}
-        to='/proyecto2'
-      >
-        Proyecto 2
-      </NavLink>
-      <NavLink
-        className={({ isActive }) => `nav-bar__link ${isActive ? 'nav-bar__link--active' : ''}`}
-        to='/formulario'
-      >
-        Subir tu proyecto
+        Subir Proyecto
       </NavLink>
     </nav>
   )
