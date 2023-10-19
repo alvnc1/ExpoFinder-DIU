@@ -6,6 +6,8 @@ import Projects from './pages/Projects';
 import Themes from './pages/Themes';
 import PastVersions from './pages/PastVersions';
 
+import './styles/styles.css';
+
 const App = () => {
   return (
     <Router>
