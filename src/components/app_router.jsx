@@ -2,10 +2,15 @@ import React from 'react'
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 
 import HomePage from '../pages/home'
-import PMVComponent from '../pages/mindguardian'
+import Versiones from '../pages/v_anteriores'
 import Formulario from '../pages/subir_proyecto'
-import NatureQuest from '../pages/naturequest'
-import SafeSym from '../pages/safesym'
+import Mindfull from '../pages/mindfullmotion'
+import CuisineAR from '../pages/cuisinear'
+import Readdy from '../pages/readdy'
+import FeriaOld from '../pages/feria_old'
+import Activate from '../pages/activate'
+import JunoApp from '../pages/junoapp'
+import OnStage from '../pages/onstage'
 import FigmaForm from '../pages/figmaform'
 
 const AppRouter = () => {
@@ -13,11 +18,16 @@ const AppRouter = () => {
     <BrowserRouter>
       <Routes>
         <Route path='/' element={<HomePage />} />
+        <Route path='/v_anteriores' element={<Versiones />} />
         <Route path='/subir_proyecto' element={<Formulario />} />
-        <Route path='/mindguardian' element={<PMVComponent/>} />
-        <Route path='/naturequest' element={<NatureQuest/>} />
-        <Route path='/safesym' element={<SafeSym/>} />
-        <Route path='/form2' element={<FigmaForm/>} />
+        <Route path='/feria_old' element={<FeriaOld />} />
+        <Route path='/mindfullmotion' element={<Mindfull/>} />
+        <Route path='/cuisinear' element={<CuisineAR/>} />
+        <Route path='/readdy' element={<Readdy/>} />
+        <Route path='/activate' element={<Activate/>} />
+        <Route path='/junoapp' element={<JunoApp/>} />
+        <Route path='/onstage' element={<OnStage/>} />
+        <Route path='/figmaform' element={<FigmaForm/>} />
       </Routes>
     </BrowserRouter>
   )
