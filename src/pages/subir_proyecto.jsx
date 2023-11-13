@@ -5,17 +5,19 @@ export const Formulario = () => {
   return (
     <><div style={{
       backgroundColor: '#D9D9D9',
-      height: '13vh',
+      height: '12vh',
       backgroundSize: 'cover',
       backgroundPosition: 'center',
       display: 'flex',
       flexDirection: 'column',
       justifyContent: 'center',
-      alignItems: 'center'
+      alignItems: 'center',
+      marginBottom: '50px',
     }}>
-      <h1 style={{ color: '#fff', fontSize: '2em' }}>ExpoFinder</h1>
       <NavBar />
-    </div><div className='page'>
+    </div>
+    
+    <div className='page'>
         <h1>Subir tu proyecto</h1>
         <div className='form-container'>
           <form className='form'>
