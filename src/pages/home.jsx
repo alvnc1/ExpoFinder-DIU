@@ -42,7 +42,7 @@ function Home() {
         <NavBar />
         
       </div>
-      <img src={Image} alt="Logo" style={{ display: 'block', marginLeft: 'auto', marginRight: 'auto', width: '88%', maxHeight: '480px'}} />
+      <img src={Image} alt="Logo" style={{ display: 'block', marginLeft: 'auto', marginRight: 'auto', width: '88%', maxHeight: '480px', borderRadius:'8px'}} />
       <div style={{
         display: 'flex',
         justifyContent: 'center',
