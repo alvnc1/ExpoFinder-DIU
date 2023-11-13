@@ -3,7 +3,7 @@ import React from 'react'
 import NavBar from '../components/nav_bar'
 import Image from '../assets/proyecto_r.png';
 
-function SafeSym() {
+function Readdy() {
   return (
     <><><div style={{
       backgroundColor: '#D9D9D9',
@@ -44,4 +44,4 @@ function SafeSym() {
   );
 }
 
-export default SafeSym;
+export default Readdy;

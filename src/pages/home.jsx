@@ -81,7 +81,7 @@ function Home() {
         </div>
 
         <div className="box" style={{ margin: '50px', textAlign: 'left', ...boxStyles, border: 'none', borderRadius: '10px' }}>
-          <Link to="/safesym" style={{ ...linkStyles }}>
+          <Link to="/readdy" style={{ ...linkStyles }}>
             <img src={Image3} width={300} height={300} alt="Descripción de la imagen" style={{ borderRadius: '10px', marginBottom: '10px' }} />
             <div style={{ paddingLeft: '10px' }}>
               <h2 style={{ margin: '0' }}>Readdy</h2>

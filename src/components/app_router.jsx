@@ -6,7 +6,7 @@ import Versiones from '../pages/v_anteriores'
 import Formulario from '../pages/subir_proyecto'
 import Mindfull from '../pages/mindfullmotion'
 import CuisineAR from '../pages/cuisinear'
-import SafeSym from '../pages/safesym'
+import Readdy from '../pages/readdy'
 
 
 const AppRouter = () => {
@@ -18,7 +18,7 @@ const AppRouter = () => {
         <Route path='/subir_proyecto' element={<Formulario />} />
         <Route path='/mindfullmotion' element={<Mindfull/>} />
         <Route path='/cuisinear' element={<CuisineAR/>} />
-        <Route path='/safesym' element={<SafeSym/>} />
+        <Route path='/readdy' element={<Readdy/>} />
       </Routes>
     </BrowserRouter>
   )

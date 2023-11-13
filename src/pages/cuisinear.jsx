@@ -3,7 +3,7 @@ import React from 'react'
 import NavBar from '../components/nav_bar'
 import Image from '../assets/proyecto_c.png';
 
-function NatureQuest() {
+function CuisineAR() {
   return (
     <><><div style={{
       backgroundColor: '#D9D9D9',
@@ -44,4 +44,4 @@ function NatureQuest() {
   );
 }
 
-export default NatureQuest;
+export default CuisineAR;
