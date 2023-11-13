@@ -23,6 +23,7 @@ export const Formulario = () => {
             <label>
               Nombre del Proyecto
               <input
+                className='input-box'
                 type='text'
                 name="projectName">
               </input>
@@ -30,6 +31,7 @@ export const Formulario = () => {
             <label>
               Dominio de la pagina
               <input
+                className='input-box'
                 type='text'
                 name="projectName">
               </input>
@@ -38,6 +40,7 @@ export const Formulario = () => {
             <label>
               Fecha de Publicación
               <input
+                className='input-box'
                 type='text'
                 name="projectName">
               </input>
@@ -45,6 +48,7 @@ export const Formulario = () => {
             <label>
               Tema del Proyecto
               <input
+                className='input-box'
                 type='text'
                 name="projectName">
               </input>
@@ -54,6 +58,7 @@ export const Formulario = () => {
             <label>
               Foto de la pagina
               <input
+                className='input-box'
                 type='text'
                 name="projectName">
               </input>
@@ -61,7 +66,7 @@ export const Formulario = () => {
             </label>
             <label>
               Descripcion del proyecto
-              <textarea name="" id="" cols="30" rows="10"></textarea>
+              <textarea className='input-box'name="" id="" cols="30" rows="10"></textarea>
             </label>
             <button type="submit" className='submit-button'>Subir Proyecto</button>
           </form>
