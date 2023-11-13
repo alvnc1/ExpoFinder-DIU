@@ -3,6 +3,9 @@ import backgroundImage from '../assets/fesw-logo-w.png';
 import NavBar from '../components/nav_bar'
 
 export const FigmaForm = () => {
+    const handleSearch = (searchTerm, selectedTheme) => {
+        alert("El proyecto se ha subido correctamente");
+      };
   return (
     <><><div style={{
           backgroundColor: '#D9D9D9',
@@ -40,7 +43,7 @@ export const FigmaForm = () => {
         </div><div className='figmaexaminar'>
             <label className='figmaform-input-label'>Descripcion del Proyecto <span className='asterisco-rojo'>*</span></label>
             <input className='examinar-input' type="text" />
-            <button className='submit-button'>Subir Proyecto</button>
+            <button className='submit-button' onClick={handleSearch}>Subir Proyecto</button>
         </div></>
       
   )
