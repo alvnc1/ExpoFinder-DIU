@@ -6,9 +6,6 @@ import Image2 from '../assets/cuisine.png';
 import Image3 from '../assets/readdy.png';
 import NavBar from '../components/nav_bar';
 
-import SearchBar from '../components/SearchBar';
-import { grey } from '@mui/material/colors';
-
 function Home() {
   const linkStyles = {
     textDecoration: 'none',
@@ -32,27 +29,18 @@ function Home() {
     justifyContent: 'center',
     alignItems: 'center',
     marginBottom: '50px',
+    position: 'relative',
   };
 
   const containerStyles = {
     position: 'relative',
   };
 
-  const searchBarStyles = {
-    position: 'center',
-    top: '10px',
-    right: '20px',
-    maxWidth: '100px',
-  };
-
-  const handleSearch = (searchTerm, selectedTheme) => {
-    alert(`Búsqueda: ${searchTerm}, Tema: ${selectedTheme}`);
-  };
-
   return (
     <div style={containerStyles}>
       <div style={backgroundStyles}>
         <NavBar />
+        
       </div>
       <img src={Image} alt="Logo" style={{ display: 'block', marginLeft: 'auto', marginRight: 'auto', width: '88%', maxHeight: '480px'}} />
       <div style={{

@@ -2,9 +2,9 @@ import React, { useState } from 'react';
 import Select from 'react-select';
 
 const options = [
-  { value: 'tecnologia', label: 'Tecnología y Ciencia' },
-  { value: 'arte', label: 'Arte y Creatividad' },
-  { value: 'educacion', label: 'Educación y Aprendizaje' },
+  { value: 'IA', label: 'Inteligencia Artificial' },
+  { value: 'TD', label: 'Tecnologia en la educación' },
+  { value: 'RVRA', label: 'Realidad Virtual y Aumentada' },
 ];
 
 function SearchBar({ onSearch }) {
