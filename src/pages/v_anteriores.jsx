@@ -1,8 +1,8 @@
 import React from 'react';
 import NavBar from '../components/nav_bar';
-import EventIcon from '@mui/icons-material/Event';
-import LocationOnIcon from '@mui/icons-material/LocationOn';
-import PeopleIcon from '@mui/icons-material/People';
+/*import EventIcon from '@mui/icons-material/Event';*/
+/*import LocationOnIcon from '@mui/icons-material/LocationOn';*/
+/*import PeopleIcon from '@mui/icons-material/People';*/
 import { Link } from 'react-router-dom';
 
 const versionData = [

@@ -11,7 +11,7 @@ import FeriaOld from '../pages/feria_old'
 import Activate from '../pages/activate'
 import JunoApp from '../pages/junoapp'
 import OnStage from '../pages/onstage'
-
+import FigmaForm from '../pages/figmaform'
 
 const AppRouter = () => {
   return (
@@ -27,6 +27,7 @@ const AppRouter = () => {
         <Route path='/activate' element={<Activate/>} />
         <Route path='/junoapp' element={<JunoApp/>} />
         <Route path='/onstage' element={<OnStage/>} />
+        <Route path='/figmaform' element={<FigmaForm/>} />
       </Routes>
     </BrowserRouter>
   )
