@@ -1,38 +1,33 @@
 import React from 'react'
 
 import NavBar from '../components/nav_bar'
-import Banner from '../assets/naturequestog.png'
-import backgroundImage from '../assets/fondo2.jpg';
+import Image from '../assets/proyecto_c.png';
 
-export const NatureQuest= () => {
-    return (
-      <><div style={{
-        backgroundImage: `url(${backgroundImage})`,
-        height: '13vh',
-        backgroundSize: 'cover',
-        backgroundPosition: 'center',
-        display: 'flex',
-        flexDirection: 'column',
-        justifyContent: 'center',
-        alignItems: 'center'
-      }}>
-        <h1 style={{ color: '#fff', fontSize: '2em' }}>ExpoFinder</h1>
-        <NavBar />
-      </div><div className='page'>
-          <div className="pmv-container">
-            <div className="pmv-item">
-              <img src={Banner} height={300} alt="Imagen 1" />
-              <p>NatureQuest</p>
-            </div>
-          </div>
+function NatureQuest() {
+  return (
+    <><><div style={{
+      backgroundColor: '#D9D9D9',
+      height: '12vh',
+      backgroundSize: 'cover',
+      backgroundPosition: 'center',
+      display: 'flex',
+      flexDirection: 'column',
+      justifyContent: 'center',
+      alignItems: 'center',
+      marginBottom: '50px',
+    }}>
+      <NavBar />
+    </div></><div>
+      <img src={Image} alt="Logo" style={{ display: 'block', marginLeft: 'auto', marginRight: 'auto', width: '100%', maxHeight: '480px'}} />
+      </div>
+      <div className='page'>
           <h2 className='label'>Descripcion del proyecto</h2>
           <div className='parrafo-container'>
-            un juego 3D educativo en primera persona enfocado en Windows. Enseñará sobre las causas y consecuencias de la crisis climática en el medioambiente, con el objetivo
-            de que las personas tengan una mayor conciencia y puedan hacer del mundo un lugar mejor.
+            Preservamos culturas a través de la gastronomía ancestral. Aplicación móvil con realidad aumentada que revive platos, ingredientes y técnicas olvidadas.
           </div>
           <h2 className='label'>Dominio de la pagina</h2>
           <div className='parrafo-container'>
-            https://naturequest.feriadesoftware.cl/naturequest/
+            https://cuisinear.feriadesoftware.cl
           </div>
           <h2 className='label'>Fecha de publicacion</h2>
           <div className='parrafo-container'>
@@ -40,11 +35,13 @@ export const NatureQuest= () => {
           </div>
           <h2 className='label'>Tema del proyecto</h2>
           <div className='parrafo-container'>
-            Ciencia y Teconologia
+            Realidad Virtual y Aumentada
           </div>
-        </div></>
-          
-    );
-  }
+        </div>
+      
+    </>
+        
+  );
+}
 
 export default NatureQuest;

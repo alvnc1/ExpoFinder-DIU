@@ -1,11 +1,10 @@
 import React from 'react'
-import backgroundImage from '../assets/fondo2.jpg';
 import NavBar from '../components/nav_bar'
 
 export const Formulario = () => {
   return (
     <><div style={{
-      backgroundImage: `url(${backgroundImage})`,
+      backgroundColor: '#D9D9D9',
       height: '13vh',
       backgroundSize: 'cover',
       backgroundPosition: 'center',

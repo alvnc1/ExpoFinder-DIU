@@ -1,49 +1,47 @@
 import React from 'react'
 
 import NavBar from '../components/nav_bar'
-import Logo from '../assets/safesym.png'
-import backgroundImage from '../assets/fondo2.jpg';
+import Image from '../assets/proyecto_r.png';
 
-export const SafeSym= () => {
-    return (
-      <><div style={{
-        backgroundImage: `url(${backgroundImage})`,
-        height: '13vh',
-        backgroundSize: 'cover',
-        backgroundPosition: 'center',
-        display: 'flex',
-        flexDirection: 'column',
-        justifyContent: 'center',
-        alignItems: 'center'
-      }}>
-        <h1 style={{ color: '#fff', fontSize: '2em' }}>ExpoFinder</h1>
-        <NavBar />
-      </div><div className='page'>
-          <div className="pmv-container">
-            <div className="pmv-item">
-              <img src={Logo} height={300} alt="Imagen 1" />
-              <p>SafeSym</p>
-            </div>
-          </div>
+function SafeSym() {
+  return (
+    <><><div style={{
+      backgroundColor: '#D9D9D9',
+      height: '12vh',
+      backgroundSize: 'cover',
+      backgroundPosition: 'center',
+      display: 'flex',
+      flexDirection: 'column',
+      justifyContent: 'center',
+      alignItems: 'center',
+      marginBottom: '50px',
+    }}>
+      <NavBar />
+    </div></><div>
+      <img src={Image} alt="Logo" style={{ display: 'block', marginLeft: 'auto', marginRight: 'auto', width: '100%', maxHeight: '480px'}} />
+      </div>
+      <div className='page'>
           <h2 className='label'>Descripcion del proyecto</h2>
           <div className='parrafo-container'>
-            OneBlit trae “SafeSym”, una aplicación que implementa la gamificación con tal de concientizar sobre ciberseguridad, mostrando cuales serían las consecuencias en caso de ataques y que medidas deberían de seguirse con tal de prevenirlos. La aplicación va enfocada a trabajadores que realicen labores de ofimática y que no cuenten con un conocimiento avanzado en computación. Además, nuestros clientes serán las grandes, medianas y pequeñas empresas del país, aportando en la capacitación y concientización sobre ciberseguridad de sus trabajadores y disminuyendo la efectividad de futuros ataques.
+            Readdy, una app móvil que mejora la comprensión lectora con ejercicios personalizados según el usuario utilizando teoría cognitiva e IA
           </div>
           <h2 className='label'>Dominio de la pagina</h2>
           <div className='parrafo-container'>
-            https://safesym.feriadesoftware.cl
+            https://readdy.feriadesoftware.cl
           </div>
           <h2 className='label'>Fecha de publicacion</h2>
           <div className='parrafo-container'>
-            18 de Septiembre de 2023
+            30 de Abril de 2023
           </div>
           <h2 className='label'>Tema del proyecto</h2>
           <div className='parrafo-container'>
-            Ciencia y Teconologia
+            Tecnología en la Educación
           </div>
-        </div></>
-          
-    );
-  }
+        </div>
+      
+    </>
+        
+  );
+}
 
 export default SafeSym;

@@ -1,9 +1,9 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import Image from '../assets/imagen.png';
-import Image1 from '../assets/Menu.png';
-import Image2 from '../assets/naturequestog.png';
-import Image3 from '../assets/safesym.png';
+import Image1 from '../assets/motion.png';
+import Image2 from '../assets/cuisine.png';
+import Image3 from '../assets/readdy.png';
 import NavBar from '../components/nav_bar';
 
 import SearchBar from '../components/SearchBar';
@@ -39,10 +39,10 @@ function Home() {
   };
 
   const searchBarStyles = {
-    position: 'absolute',
-    top: '20px',
+    position: 'center',
+    top: '10px',
     right: '20px',
-    maxWidth: '300px',
+    maxWidth: '100px',
   };
 
   const handleSearch = (searchTerm, selectedTheme) => {
@@ -60,25 +60,33 @@ function Home() {
         justifyContent: 'center',
         marginTop: '20px',
       }}>
-        <div className="box" style={{ margin: '50px', textAlign: 'center', ...boxStyles }}>
+        <div className="box" style={{ margin: '50px', textAlign: 'left', ...boxStyles, border: 'none', borderRadius: '10px' }}>
           <Link to="/mindguardian" style={{ ...linkStyles }}>
-            <img src={Image1} width={200} alt="Descripción de la imagen" />
-            <h2>Mind Guardian</h2>
-            <p style={{ color: '#999', fontSize: '0.9em' }}>https://mindguardian.feriadesoftware.cl.</p>
+            <img src={Image1} width={300} height={300} alt="Descripción de la imagen" style={{ borderRadius: '10px', marginBottom: '10px' }} />
+            <div style={{ paddingLeft: '10px' }}>
+              <h2 style={{ margin: '0' }}>Mindfull Motion</h2>
+              <p style={{ color: '#999', fontSize: '0.9em', margin: '0' }}>mindfullmotion.feriadesoftware.cl</p>
+            </div>
           </Link>
         </div>
-        <div className="box" style={{ margin: '50px', textAlign: 'center', ...boxStyles }}>
+
+        <div className="box" style={{ margin: '50px', textAlign: 'left', ...boxStyles, border: 'none', borderRadius: '10px' }}>
           <Link to="/naturequest" style={{ ...linkStyles }}>
-            <img src={Image2} width={200} alt="Descripción de la imagen" />
-            <h2>NatureQuest</h2>
-            <p style={{ color: '#999', fontSize: '0.9em' }}>https://naturequest.feriadesoftware.cl/naturequest/</p>
+            <img src={Image2} width={300} height={300} alt="Descripción de la imagen" style={{ borderRadius: '10px', marginBottom: '10px' }} />
+            <div style={{ paddingLeft: '10px' }}>
+              <h2 style={{ margin: '0' }}>CuisineAR</h2>
+              <p style={{ color: '#999', fontSize: '0.9em', margin: '0' }}>cuisinear.feriadesoftware.cl</p>
+            </div>
           </Link>
         </div>
-        <div className="box" style={{ margin: '50px', textAlign: 'center', ...boxStyles }}>
+
+        <div className="box" style={{ margin: '50px', textAlign: 'left', ...boxStyles, border: 'none', borderRadius: '10px' }}>
           <Link to="/safesym" style={{ ...linkStyles }}>
-            <img src={Image3} width={200} alt="Descripción de la imagen" />
-            <h2>SafeSym</h2>
-            <p style={{ color: '#999', fontSize: '0.9em' }}>https://safesym.feriadesoftware.cl</p>
+            <img src={Image3} width={300} height={300} alt="Descripción de la imagen" style={{ borderRadius: '10px', marginBottom: '10px' }} />
+            <div style={{ paddingLeft: '10px' }}>
+              <h2 style={{ margin: '0' }}>Readdy</h2>
+              <p style={{ color: '#999', fontSize: '0.9em', margin: '0' }}>readdy.feriadesoftware.cl</p>
+            </div>
           </Link>
         </div>
       </div>
