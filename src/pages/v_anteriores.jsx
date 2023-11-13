@@ -16,7 +16,6 @@ const versionData = [
   { numero: 'XXII', feria: 'Feria de Software', ano: '2014', fecha: '14 de Noviembre de 2014', ubicacion: 'Universidad Técnica Federico Santa María', sede: 'Campus Santiago San Joaquín', ubi: 'Avenida Vicuña Mackenna 3939, Santiago' , cantidadPersonas: '21 expositores' },
   { numero: 'XXI', feria: 'Feria de Software', ano: '2013', fecha: '	21 de Marzo de 2014', ubicacion: 'Universidad Técnica Federico Santa María', sede: 'Campus Casa Central Valparaíso', ubi: 'Avenida España 1680, Valparaíso' , cantidadPersonas: '21 expositores' },
   { numero: 'XX', feria: 'Feria de Software', ano: '2012', fecha: '9 de Noviembre de 2012', ubicacion: 'Universidad Técnica Federico Santa María', sede: 'Campus Santiago San Joaquín', ubi: 'Avenida Vicuña Mackenna 3939, Santiago' , cantidadPersonas: '46 expositores' },
-  // ... Agrega datos para las demás versiones
 ];
 
 export const Versiones = () => {
@@ -44,7 +43,7 @@ export const Versiones = () => {
             border: '1px solid #ccc',
             borderRadius: '10px',
             padding: '10px',
-            textAlign: 'center',
+            textAlign: 'justify',
             margin: '10px',
           }}>
             <p>{`${version.numero} ${version.feria}`}</p>
