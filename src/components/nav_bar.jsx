@@ -51,7 +51,7 @@ export const NavBar = ({ onThemeSelect }) => {
         </NavLink>
         <NavLink
           className={({ isActive }) => `nav-bar__link ${isActive ? 'nav-bar__link--active' : ''}`}
-          to='/subir_proyecto'
+          to='/figmaform'
         >
           Subir Proyecto
         </NavLink>
