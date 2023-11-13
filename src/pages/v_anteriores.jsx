@@ -35,31 +35,30 @@ export const Versiones = () => {
       }}>
         <NavBar />
       </div>
-      <div>
+      <div style={{ marginLeft: '180px', textDecoration: 'underline', textDecorationColor: '#FFFFFF' }}>
         <h1>Versiones Anteriores</h1>
-        <div style={{ display: 'flex', justifyContent: 'center', flexWrap: 'wrap' }}>
-          {versionData.map((version, index) => (
-            <div key={index} style={{
-              border: '1px solid #ccc',
-              borderRadius: '10px',
-              padding: '10px',
-              textAlign: 'center',
-              margin: '10px',
-            }}>
-              <p>{`${version.numero} ${version.feria}`}</p>
-              <p> {version.ano}</p>
-              <p><EventIcon /> {version.fecha}</p>
-              <p><LocationOnIcon /> {version.ubicacion}</p>
-              <p> {version.sede}</p>
-              <p> {version.ubi}</p>
-              <p><PeopleIcon /> {`${version.cantidadPersonas}`}</p>
-            </div>
-          ))}
-        </div>
+      </div>
+      <div style={{ display: 'flex', justifyContent: 'center', flexWrap: 'wrap' }}>
+        {versionData.map((version, index) => (
+          <div key={index} style={{
+            border: '1px solid #ccc',
+            borderRadius: '10px',
+            padding: '10px',
+            textAlign: 'center',
+            margin: '10px',
+          }}>
+            <p>{`${version.numero} ${version.feria}`}</p>
+            <p> {version.ano}</p>
+            <p><EventIcon /> {version.fecha}</p>
+            <p><LocationOnIcon /> {version.ubicacion}</p>
+            <p> {version.sede}</p>
+            <p> {version.ubi}</p>
+            <p><PeopleIcon /> {`${version.cantidadPersonas}`}</p>
+          </div>
+        ))}
       </div>
     </>
   );
 }
 
 export default Versiones;
-
