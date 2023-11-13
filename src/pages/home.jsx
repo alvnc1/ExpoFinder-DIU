@@ -7,6 +7,7 @@ import Image3 from '../assets/readdy.png';
 import NavBar from '../components/nav_bar';
 
 function Home() {
+  document.title = "XXXI Feria de Software USM"
   const linkStyles = {
     textDecoration: 'none',
     color: 'inherit',
