@@ -1,5 +1,4 @@
 import React from 'react'
-import backgroundImage from '../assets/fesw-logo-w.png';
 import NavBar from '../components/nav_bar'
 
 export const FigmaForm = () => {
@@ -7,6 +6,7 @@ export const FigmaForm = () => {
         alert("El proyecto se ha subido correctamente");
       };
   return (
+    
     <><><div style={{
           backgroundColor: '#D9D9D9',
           height: '12vh',
