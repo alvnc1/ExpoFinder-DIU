@@ -49,7 +49,7 @@ function FeriaOld() {
         marginTop: '20px',
       }}>
         <div className="box" style={{ margin: '50px', textAlign: 'left', ...boxStyles, border: 'none', borderRadius: '10px' }}>
-          <Link to="/mindfullmotion" style={{ ...linkStyles }}>
+          <Link to="/activate" style={{ ...linkStyles }}>
             <img src={Image1} width={300} height={300} alt="Descripción de la imagen" style={{ borderRadius: '10px', marginBottom: '10px' }} />
             <div style={{ paddingLeft: '10px' }}>
               <h2 style={{ margin: '0' }}>Activate</h2>
@@ -59,7 +59,7 @@ function FeriaOld() {
         </div>
 
         <div className="box" style={{ margin: '50px', textAlign: 'left', ...boxStyles, border: 'none', borderRadius: '10px' }}>
-          <Link to="/cuisinear" style={{ ...linkStyles }}>
+          <Link to="/junoapp" style={{ ...linkStyles }}>
             <img src={Image2} width={300} height={300} alt="Descripción de la imagen" style={{ borderRadius: '10px', marginBottom: '10px' }} />
             <div style={{ paddingLeft: '10px' }}>
               <h2 style={{ margin: '0' }}>Juno App</h2>
@@ -69,7 +69,7 @@ function FeriaOld() {
         </div>
 
         <div className="box" style={{ margin: '50px', textAlign: 'left', ...boxStyles, border: 'none', borderRadius: '10px' }}>
-          <Link to="/readdy" style={{ ...linkStyles }}>
+          <Link to="/onstage" style={{ ...linkStyles }}>
             <img src={Image3} width={300} height={300} alt="Descripción de la imagen" style={{ borderRadius: '10px', marginBottom: '10px' }} />
             <div style={{ paddingLeft: '10px' }}>
               <h2 style={{ margin: '0' }}>OnStage</h2>

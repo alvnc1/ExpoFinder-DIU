@@ -8,6 +8,9 @@ import Mindfull from '../pages/mindfullmotion'
 import CuisineAR from '../pages/cuisinear'
 import Readdy from '../pages/readdy'
 import FeriaOld from '../pages/feria_old'
+import Activate from '../pages/activate'
+import JunoApp from '../pages/junoapp'
+import OnStage from '../pages/onstage'
 
 
 const AppRouter = () => {
@@ -21,6 +24,9 @@ const AppRouter = () => {
         <Route path='/mindfullmotion' element={<Mindfull/>} />
         <Route path='/cuisinear' element={<CuisineAR/>} />
         <Route path='/readdy' element={<Readdy/>} />
+        <Route path='/activate' element={<Activate/>} />
+        <Route path='/junoapp' element={<JunoApp/>} />
+        <Route path='/onstage' element={<OnStage/>} />
       </Routes>
     </BrowserRouter>
   )
