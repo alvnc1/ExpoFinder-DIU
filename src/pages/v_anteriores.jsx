@@ -3,6 +3,7 @@ import NavBar from '../components/nav_bar';
 import EventIcon from '@mui/icons-material/Event';
 import LocationOnIcon from '@mui/icons-material/LocationOn';
 import PeopleIcon from '@mui/icons-material/People';
+import { Link } from 'react-router-dom';
 
 const versionData = [
   { numero: '30°', feria: 'Feria de Software', ano: '2022', fecha: '25 de Noviembre de 2022', ubicacion: 'Universidad Técnica Federico Santa María', sede: 'Campus Casa Central Valparaíso', ubi: 'Avenida España 1680, Valparaíso' , cantidadPersonas: '29 expositores' },
@@ -46,7 +47,9 @@ export const Versiones = () => {
             textAlign: 'justify',
             margin: '10px',
           }}>
+            <Link to="/feria_old">
             <p>{`${version.numero} ${version.feria}`}</p>
+            </Link>
             <p> {version.ano}</p>
             <p><EventIcon /> {version.fecha}</p>
             <p><LocationOnIcon /> {version.ubicacion}</p>

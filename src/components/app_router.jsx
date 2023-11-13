@@ -7,6 +7,7 @@ import Formulario from '../pages/subir_proyecto'
 import Mindfull from '../pages/mindfullmotion'
 import CuisineAR from '../pages/cuisinear'
 import Readdy from '../pages/readdy'
+import FeriaOld from '../pages/feria_old'
 
 
 const AppRouter = () => {
@@ -16,6 +17,7 @@ const AppRouter = () => {
         <Route path='/' element={<HomePage />} />
         <Route path='/v_anteriores' element={<Versiones />} />
         <Route path='/subir_proyecto' element={<Formulario />} />
+        <Route path='/feria_old' element={<FeriaOld />} />
         <Route path='/mindfullmotion' element={<Mindfull/>} />
         <Route path='/cuisinear' element={<CuisineAR/>} />
         <Route path='/readdy' element={<Readdy/>} />
