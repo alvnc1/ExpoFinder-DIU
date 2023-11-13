@@ -61,7 +61,7 @@ function Home() {
         marginTop: '20px',
       }}>
         <div className="box" style={{ margin: '50px', textAlign: 'left', ...boxStyles, border: 'none', borderRadius: '10px' }}>
-          <Link to="/mindguardian" style={{ ...linkStyles }}>
+          <Link to="/mindfullmotion" style={{ ...linkStyles }}>
             <img src={Image1} width={300} height={300} alt="Descripción de la imagen" style={{ borderRadius: '10px', marginBottom: '10px' }} />
             <div style={{ paddingLeft: '10px' }}>
               <h2 style={{ margin: '0' }}>Mindfull Motion</h2>

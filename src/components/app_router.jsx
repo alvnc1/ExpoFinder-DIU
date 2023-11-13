@@ -2,7 +2,7 @@ import React from 'react'
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 
 import HomePage from '../pages/home'
-import PMVComponent from '../pages/mindguardian'
+import Mindfull from '../pages/mindfullmotion'
 import Formulario from '../pages/subir_proyecto'
 import NatureQuest from '../pages/naturequest'
 import SafeSym from '../pages/safesym'
@@ -15,7 +15,7 @@ const AppRouter = () => {
         <Route path='/' element={<HomePage />} />
         <Route path='/v_anteriores' element={<Versiones />} />
         <Route path='/subir_proyecto' element={<Formulario />} />
-        <Route path='/mindguardian' element={<PMVComponent/>} />
+        <Route path='/mindfullmotion' element={<Mindfull/>} />
         <Route path='/naturequest' element={<NatureQuest/>} />
         <Route path='/safesym' element={<SafeSym/>} />
       </Routes>

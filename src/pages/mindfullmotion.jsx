@@ -4,7 +4,7 @@ import { Button } from '@mui/material'
 import NavBar from '../components/nav_bar'
 import Image from '../assets/proyecto_m.png';
 
-function PMVComponent() {
+function Mindfull() {
   return (
     <><><div style={{
       backgroundColor: '#D9D9D9',
@@ -45,6 +45,6 @@ function PMVComponent() {
   );
 }
 
-export default PMVComponent;
+export default Mindfull;
 
 
