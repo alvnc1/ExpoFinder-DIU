@@ -2,11 +2,12 @@ import React from 'react'
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 
 import HomePage from '../pages/home'
-import Mindfull from '../pages/mindfullmotion'
-import Formulario from '../pages/subir_proyecto'
-import NatureQuest from '../pages/naturequest'
-import SafeSym from '../pages/safesym'
 import Versiones from '../pages/v_anteriores'
+import Formulario from '../pages/subir_proyecto'
+import Mindfull from '../pages/mindfullmotion'
+import CuisineAR from '../pages/cuisinear'
+import SafeSym from '../pages/safesym'
+
 
 const AppRouter = () => {
   return (
@@ -16,7 +17,7 @@ const AppRouter = () => {
         <Route path='/v_anteriores' element={<Versiones />} />
         <Route path='/subir_proyecto' element={<Formulario />} />
         <Route path='/mindfullmotion' element={<Mindfull/>} />
-        <Route path='/naturequest' element={<NatureQuest/>} />
+        <Route path='/cuisinear' element={<CuisineAR/>} />
         <Route path='/safesym' element={<SafeSym/>} />
       </Routes>
     </BrowserRouter>

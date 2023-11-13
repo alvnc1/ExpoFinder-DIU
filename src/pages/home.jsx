@@ -71,7 +71,7 @@ function Home() {
         </div>
 
         <div className="box" style={{ margin: '50px', textAlign: 'left', ...boxStyles, border: 'none', borderRadius: '10px' }}>
-          <Link to="/naturequest" style={{ ...linkStyles }}>
+          <Link to="/cuisinear" style={{ ...linkStyles }}>
             <img src={Image2} width={300} height={300} alt="Descripción de la imagen" style={{ borderRadius: '10px', marginBottom: '10px' }} />
             <div style={{ paddingLeft: '10px' }}>
               <h2 style={{ margin: '0' }}>CuisineAR</h2>
